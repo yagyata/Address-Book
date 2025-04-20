@@ -1,0 +1,9 @@
+2025-04-20T19:02:20.542+05:30  INFO 9400 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 17.0.6 with PID 9400 (C:\Users\Acer\Downloads\addressbook\addressbook\target\classes started by Acer in C:\Users\Acer\Downloads\addressbook\addressbook)
+2025-04-20T19:02:20.560+05:30 DEBUG 9400 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-20T19:02:20.563+05:30  INFO 9400 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-04-20T19:02:28.394+05:30  WARN 9400 --- [addressbook] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20T19:02:29.724+05:30  INFO 9400 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : Started AddressbookApplication in 10.293 seconds (process running for 12.376)
+2025-04-20T19:02:29.731+05:30  INFO 9400 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : Address Book Application started in {} Environment,COMMON
+2025-04-20T19:21:47.208+05:30  WARN 9400 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m51s221ms796µs200ns).
+2025-04-20T21:09:46.559+05:30  WARN 9400 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h32m56s281ms409µs500ns).
+2025-04-20T21:45:17.032+05:30  WARN 9400 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m29s967ms985µs500ns).
