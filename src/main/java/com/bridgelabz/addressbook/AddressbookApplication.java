@@ -13,8 +13,7 @@ public class AddressbookApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext context= SpringApplication.run(AddressbookApplication.class, args);
-		log.info("Address Book Application started in {} Environment,",
+		log.info("Address Book Application started in {} Environment",
 				context.getEnvironment().getProperty("environment"));
 	}
-
 }
