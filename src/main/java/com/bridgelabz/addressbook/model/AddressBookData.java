@@ -2,11 +2,13 @@ package com.bridgelabz.addressbook.model;
 
 import com.bridgelabz.addressbook.DTO.AddressDTO;
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.util.List;
 
 @Entity
-public class AddressBookData {
+@Table(name = "address_book_data")
+public @Data class AddressBookData {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
