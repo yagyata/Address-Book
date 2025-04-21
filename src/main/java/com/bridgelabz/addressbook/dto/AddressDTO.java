@@ -1,8 +1,7 @@
 package com.bridgelabz.addressbook.dto;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Pattern;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
 import lombok.ToString;
 
 import java.util.List;
@@ -23,7 +22,8 @@ public @ToString class AddressDTO {
     @NotNull(message = "Phone number required")
     public List<String> phoneNumber;
 
-    @NotNull(message = "Email required")
-    public List<String> email;
+    @NotEmpty(message = "Email required")
+    @Valid
+    public List<@Email(message = "Invalid email address") String> email;
 
 }
