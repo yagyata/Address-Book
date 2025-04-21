@@ -1,4 +1,4 @@
-package com.bridgelabz.addressbook.DTO;
+package com.bridgelabz.addressbook.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

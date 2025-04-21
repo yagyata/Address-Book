@@ -1,7 +1,7 @@
 package com.bridgelabz.addressbook.controller;
 
-import com.bridgelabz.addressbook.DTO.AddressDTO;
-import com.bridgelabz.addressbook.DTO.ResponseDTO;
+import com.bridgelabz.addressbook.dto.AddressDTO;
+import com.bridgelabz.addressbook.dto.ResponseDTO;
 import com.bridgelabz.addressbook.model.AddressBookData;
 import com.bridgelabz.addressbook.service.IAddressBookService;
 import jakarta.validation.Valid;

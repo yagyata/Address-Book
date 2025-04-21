@@ -1,6 +1,6 @@
 package com.bridgelabz.addressbook.service;
 
-import com.bridgelabz.addressbook.DTO.AddressDTO;
+import com.bridgelabz.addressbook.dto.AddressDTO;
 import com.bridgelabz.addressbook.model.AddressBookData;
 import com.bridgelabz.addressbook.repository.AddressBookRepository;
 import lombok.extern.slf4j.Slf4j;

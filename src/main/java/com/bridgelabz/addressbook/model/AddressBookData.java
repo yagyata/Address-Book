@@ -1,6 +1,6 @@
 package com.bridgelabz.addressbook.model;
 
-import com.bridgelabz.addressbook.DTO.AddressDTO;
+import com.bridgelabz.addressbook.dto.AddressDTO;
 import jakarta.persistence.*;
 import lombok.Data;
 

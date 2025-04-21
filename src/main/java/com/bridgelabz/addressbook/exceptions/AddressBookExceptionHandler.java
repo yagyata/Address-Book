@@ -1,6 +1,6 @@
 package com.bridgelabz.addressbook.exceptions;
 
-import com.bridgelabz.addressbook.DTO.ResponseDTO;
+import com.bridgelabz.addressbook.dto.ResponseDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
