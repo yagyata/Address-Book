@@ -321,3 +321,17 @@ jakarta.validation.UnexpectedTypeException: HV000030: No validator could be foun
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
+2025-04-21T10:05:44.790+05:30  INFO 7524 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 17.0.6 with PID 7524 (C:\Users\Acer\Downloads\addressbook\addressbook\target\classes started by Acer in C:\Users\Acer\Downloads\addressbook\addressbook)
+2025-04-21T10:05:44.796+05:30 DEBUG 7524 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-21T10:05:44.798+05:30  INFO 7524 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-04-21T10:05:51.430+05:30  WARN 7524 --- [addressbook] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-21T10:05:52.116+05:30  INFO 7524 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : Started AddressbookApplication in 8.354 seconds (process running for 9.028)
+2025-04-21T10:05:52.121+05:30  INFO 7524 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : Address Book Application started in COMMON Environment
+2025-04-21T10:06:48.687+05:30 DEBUG 7524 --- [addressbook] [http-nio-8080-exec-7] c.b.a.service.AddressBookService         : Address Book Data: AddressBookData(id=0, name=Yagyata Sharma, city=Ludhiana, state=Punjab, pincode=141025, phoneNumber=[7852655555], email=[yagy147@gmail.com, yshar@gmail.com])
+2025-04-21T11:43:56.984+05:30  WARN 7524 --- [addressbook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m6s337ms843µs200ns).
+2025-04-21T13:27:24.700+05:30  INFO 11020 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 17.0.6 with PID 11020 (C:\Users\Acer\Downloads\addressbook\addressbook\target\classes started by Acer in C:\Users\Acer\Downloads\addressbook\addressbook)
+2025-04-21T13:27:24.706+05:30 DEBUG 11020 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-21T13:27:24.708+05:30  INFO 11020 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-04-21T13:27:32.591+05:30  WARN 11020 --- [addressbook] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-21T13:27:33.485+05:30  INFO 11020 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : Started AddressbookApplication in 9.966 seconds (process running for 10.816)
+2025-04-21T13:27:33.499+05:30  INFO 11020 --- [addressbook] [main] c.b.addressbook.AddressbookApplication   : Address Book Application started in COMMON Environment

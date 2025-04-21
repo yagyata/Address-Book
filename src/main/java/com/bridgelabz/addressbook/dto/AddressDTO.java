@@ -20,7 +20,8 @@ public @ToString class AddressDTO {
     public String pincode;
 
     @NotNull(message = "Phone number required")
-    public List<String> phoneNumber;
+    @Valid
+    public List<@Pattern(regexp = "^[6-9][0-9]{9}$", message = "Invalid phone number") String> phoneNumber;
 
     @NotEmpty(message = "Email required")
     @Valid
